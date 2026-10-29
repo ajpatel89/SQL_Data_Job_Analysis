@@ -1,6 +1,6 @@
 
 
-# ? Questions to Answer
+#  Questions to Answer
 
 1. What are the top-paying jobs for my role?
 
