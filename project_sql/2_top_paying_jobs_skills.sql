@@ -41,36 +41,17 @@ ORDER BY
     salary_year_avg DESC;
 
 /* 
-A quick note first: the file contains 8 distinct job postings (66 skill rows), not 10. Salaries range from $184K to $256K, averaging about $207K.
+The four takeaways from the 8 postings (66 skill mentions, average salary about $207K):
 
-The core stack is SQL, Python and Tableau
+1. **SQL, Python and Tableau are the core stack.** SQL appears in all 8 postings, Python in 7 and Tableau in 6. If you only learn three tools, learn these. Tableau is also far more common than Power BI, which appears in only 2.
 
-SQL appears in all 8 postings. It is the one non-negotiable skill.
-Python appears in 7 of 8 (88%).
-Tableau appears in 6 of 8 (75%). It is far more common than Power BI, which appears in only 2.
-R appears in 4 of 8 (50%), so it is a useful extra rather than a requirement.
+2. **Cloud and data warehouse skills are the next step up.** Snowflake appears in 3 postings, and Azure, AWS and Oracle in 2 each. Only the AT&T role, the highest paid at $256K, asks for a full big-data stack (Databricks, PySpark and two clouds). For most of the others, one warehouse plus basic cloud familiarity is enough.
 
-Supporting skills
+3. **Seniority drives pay more than the number of skills.** Associate Director, Director and Principal titles fill the list. The top role lists 13 skills and the lowest-paid lists 3, but UCLA Health pays $217K for just 5. A longer skill list doesn't guarantee a higher salary.
 
-Pandas and Excel each appear in 3 postings, and NumPy in 2. Excel still shows up even at the principal level.
-Cloud and data warehouses: Snowflake appears in 3 postings, and Azure, AWS and Oracle in 2 each. Databricks, PySpark and Hadoop each appear once.
-Collaboration and dev tools: the Atlassian tools (Jira, Confluence, Bitbucket) appear together in 2 postings. Git, GitLab and Jenkins show up once or twice. This points to engineering-style teamwork rather than purely analytical work.
+4. **Engineering-style tools show up at senior levels.** Jira, Confluence, Bitbucket, Git and GitLab appear in about a quarter of the postings. Senior analyst roles seem to expect version control and team workflow knowledge alongside analysis, and Excel still appears even at principal level.
 
-Skills by category (share of all 66 skill mentions)
-
-Languages and libraries (SQL, Python, R, Go, Pandas, NumPy, Jupyter): about 36%
-BI and reporting (Tableau, Power BI, Excel, PowerPoint): about 21%
-Cloud and data platforms: about 21%
-Dev and collaboration tools: about 21%
-
-Salary patterns
-
-The top-paid role (AT&T, $256K) lists 13 skills. The lowest-paid role lists only 3.
-Breadth doesn’t guarantee pay, though. UCLA Health pays $217K for just 5 skills (SQL, Oracle, Tableau and two niche tools).
-Seniority matters more than the tool list: the roles are Associate Director, Director, Principal and Marketing, and Principal and Director titles dominate the list.
-Only AT&T asks for the full big-data stack (Databricks, PySpark, Azure and AWS together). The other roles want a narrower set.
-
-Takeaway: master SQL, Python and Tableau first, then add a cloud warehouse such as Snowflake and some version-control and Jira familiarity. With only 8 postings from a single year, treat these as indicative rather than statistically reliable.
+With only 8 postings from one year, these patterns are indicative rather than statistically reliable.
 
 [
   {
