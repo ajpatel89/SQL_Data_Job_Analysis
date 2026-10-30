@@ -88,7 +88,6 @@ LIMIT 25;
 - Cloud and warehousing pay a premium:Snowflake, Azure, AWS and BigQuery all sit in the top 7 for salary, and Snowflake, Azure and AWS also have solid demand, making them the best balance of pay and openings.
 - Language and BI choices: Python is the clear leader, with R a reasonable second. Looker beats Tableau on pay (~$104K vs ~$99K), but Tableau has far more postings.
 - Legacy tools look risky: Hadoop pays well but has thin demand, and C++, SSRS and SQL Server rank low on pay, so they're lower priorities.
-- Treat the data with caution: SAS is duplicated, several averages rest on only 11-14 postings, and the whole list spans just ~$17K in salary, so demand matters more than pay when choosing skills.
 
 [
   {
